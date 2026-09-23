@@ -1,0 +1,13 @@
+ORDEM RAPIDA:
+
+1) npm install
+2) copie .env.example para .env
+3) preencha DISCORD_TOKEN, CLIENT_ID, GUILD_ID e os IDs dos canais/cargos
+4) edite config.json
+5) npm start
+
+Se os comandos não aparecerem:
+- confirme GUILD_ID
+- confirme CLIENT_ID
+- confirme o token
+- confirme que o bot foi convidado com applications.commands

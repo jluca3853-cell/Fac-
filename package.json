@@ -1,0 +1,20 @@
+{
+  "name": "bot-faccao-discord",
+  "version": "1.0.0",
+  "description": "Bot de facção para Discord com recrutamento, farm, tickets, hierarquia, logs e comandos de liderança.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "discord.js": "^14.27.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0"
+  }
+}
